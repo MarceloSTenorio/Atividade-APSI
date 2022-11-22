@@ -29,7 +29,7 @@ Caso de uso 'b':
 
     3. Preencher os dados do funcionário.
 
-    Extenções:
+    Extensões:
 
     3a. Caso o CPF seja inválido, não permitir o cadastro;
 
@@ -46,7 +46,7 @@ Caso de uso 'C':
 
     3. Faz-se o pagamento.
 
-    Extenções:
+    Extensões:
 
     2a. Caso as horas cadastradas não batam com as horas esperadas, verifica-se qual o funcionário não atingiu a meta de horas;
     2b. Após a verificação do funcionário que não bateu as horas esperadas, procura-se atestados ou justificativas para a falta de horas;
