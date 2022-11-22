@@ -1,0 +1,6 @@
+2. Identifique os sub-sistemas que serão desenvolvidos para compor a solução
+        - Gerenciamento de consultas;
+        - Gerenciamento de Medicamentos;
+        - Gerenciamento de Funcionários;
+        - Gerenciamento de Clientes;
+        - Gerenciamento de Pagamentos.

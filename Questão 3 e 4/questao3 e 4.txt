@@ -1,0 +1,46 @@
+3. Documente os requisitos usando histórias de usuários
+
+    História 1:
+        Como Dono da clínica, gostaria de possuir uma forma de gerênciar meus funcionários por códigos, assim podendo acompanhar melhor o meu fluxo de pagamentos.
+
+    História 2:
+        Como cliente da PetClinic, gostaria de ter fácil acesso aos pedidos de exames do meu pet, assim posso imprimir uma segunda via de maneira simples.
+    
+    História 3:
+        Como veterinário, gostaria de poder fazer pesquisas por algum número identificador do animal para poder ter acesso a seu histórico, podendo, dessa forma, 
+        acompanhar a saúde do animal e exames feitos de forma mais eficaz.
+
+4. Para cada história de usuário, descreva o mínimos de 3 critérios de aceitação usando BDD
+
+    Critérios de aceitação da história 1:
+
+        - Na página de gerenciamento de funcionários, devo ser capaz de clicar em uma barra de busca para consultar o código de um funcionário, 
+        que me trará seu código único, nome, carga horária exercida, função e salário;
+
+        - Na página de gerenciamento de funcionário após a pesquisa, caso o código único de funcionário não exista, devo receber uma 
+        mensagem me avisando que o funcionário não existe;
+
+        - Na página de gerenciamento de funcionários, devo poder pesquisar funcionários apenas por alguns dígitos de seu código ('1###'), 
+        tendo como retorno todos os funcionários com o número digitado na posição adequada.
+
+
+    Critérios de aceitação da história 2:
+
+        - Na página inicial, gostaria que houvesse um botão que me mostrasse por data de consulta os exames emitidos pelo veterinário, retornando a data, 
+        nome do veterinário, e o nome do meu pet;
+        
+        - Após clicar no botão mencionado acima e obter os resultados, quero ser capaz de filtrar por nome de pet, 
+        assim específicando qual dos meus pets gostaria de ver;
+
+        - Após clicar no botão mencionado e obter os resultados, quero poder escolher se quero as consultas mais antigas primeiro, ou as mais recentes.
+
+    Critérios de aceitação da história 3:
+
+        - Na página de gerenciamento de consultas, quero poder clicar em um campo de texto para digitar o código único do animal, tendo como retorno 
+        seu histórico de consultas e exames prévios;
+
+        - Após a pesquisa, quero ter acesso ao prontuário do animal, para melhor entender o motivo de sua visita e o veterinário que fez o atendimento passado, 
+        caso seja uma emergência;
+
+        - Após a pesquisa, quero ter acesso ao resultado de exames passados, organizados por tipo de exame.
+

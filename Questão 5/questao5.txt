@@ -1,0 +1,53 @@
+5. Documente os seguintes Casos de Uso:
+        a. Cadastrar Medicamentos;
+        b. Realizar cadastro de Funcionários;
+        c. Gerenciar folha de pagamento.
+
+Caso de uso 'a':
+
+    Ator: Assistente de Cadastro (Funcionário)
+
+    Fluxo normal:
+
+    1. Recebe o pedido dos medicamentos;
+
+    2. Desembala os medicamentos;
+
+    3. Checa a quantidade de medicamentos;
+
+    4. Cadastra os medicamentos no sistema.
+
+Caso de uso 'b':
+
+    Ator: Gerente (Funcionário) ou Dono
+
+    Fluxo normal:
+
+    1. Coleta de dados sobre o novo funcionário;
+
+    2. Abrir o gerenciador de funcionários e clicar no botão de novo cadastro;
+
+    3. Preencher os dados do funcionário.
+
+    Extenções:
+
+    3a. Caso o CPF seja inválido, não permitir o cadastro;
+
+
+Caso de uso 'C':
+
+    Ator: Dono ou Gerente (Funcionário)
+
+    Fluxo normal:
+
+    1. Pesquisa-se o setor desejado;
+
+    2. Compara-se as horas esperadas no mês do setor, com a cadastrada;
+
+    3. Faz-se o pagamento.
+
+    Extenções:
+
+    2a. Caso as horas cadastradas não batam com as horas esperadas, verifica-se qual o funcionário não atingiu a meta de horas;
+    2b. Após a verificação do funcionário que não bateu as horas esperadas, procura-se atestados ou justificativas para a falta de horas;
+    2c. Caso não haja justificativa, recalcula-se o salário do funcionário.
